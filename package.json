@@ -1,0 +1,24 @@
+{
+  "name": "rs-ec-2021-retry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src --ext .js --ext .json",
+    "ts:retry": "ts-node ./src/05.retry.backoff.jitter.transient.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-watch": "^7.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
