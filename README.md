@@ -23,9 +23,11 @@ O código será construido em etapas seguindo a seguinte evolução:
     retry com backoff exponencial + jitter + detecção customizada de erros transientes em typescript (produzindo uma função que preserva os tipos dos argumentos e retorno da função original)
 
 ## Referências
-- https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/
 - https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/
+- https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/
 - https://github.com/Polly-Contrib/Polly.Contrib.WaitAndRetry#wait-and-retry-with-jittered-back-off
+- https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
+- https://martinfowler.com/articles/microservices.html#DesignForFailure
 
 ## Expert
 
